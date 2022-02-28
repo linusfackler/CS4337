@@ -12,9 +12,9 @@
   (λ (1st)
     (define length-acc-helper
       (λ (1st acc)
-	(printf "1st=~a acc=~a~n" 1st acc)
-    (if (empty? 1st)
-      acc
-      (length-acc-helper (cdr 1st) (+ 1 acc)))))
+	      (printf "1st=~a acc=~a~n" 1st acc)
+        (if (empty? 1st)
+          acc
+          (length-acc-helper (cdr 1st) (+ 1 acc)))))
   (length-acc-helper 1st 0)))
 			
