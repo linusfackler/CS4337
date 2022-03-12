@@ -12,6 +12,6 @@
   (λ (x)
     (x 4)))
 
-(define my-map (f x . l)
+(define my-map (f x . l))
   
   
