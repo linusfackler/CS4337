@@ -3,5 +3,5 @@
 >+++[<------>-]<.       sub 3 * 6 = 18 (120 minus 18 = 102)   f
 >+[--------->+<]>-------.  loop to 50  (new mem location)     2
 -.                         minus 1 = 49                       1
--<+++[>.<-]                minus 1 = 48  print 3 times        000
->+.                        plus 1  = 49                       1
+-...                       minus 1 = 48  print 3 times        000
++.                         plus 1  = 49                       1
